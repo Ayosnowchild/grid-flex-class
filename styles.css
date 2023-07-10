@@ -1,0 +1,96 @@
+h1 {
+  background-color: aqua;
+}
+#heading {
+  background-color: brown;
+}
+.sub-heading {
+  color: cornsilk;
+}
+span {
+  background-color: cadetblue;
+}
+#buhari {
+  display: block;
+  background-color: chartreuse;
+}
+.example {
+  font-size: 32px;
+  color: darkcyan;
+}
+#one {
+  font-size: 64px;
+}
+h1::first-letter {
+  font-size: 72px;
+}
+input[placeholder] {
+  color: yellow;
+  font-size: 12px;
+}
+input[type="search"] {
+  font-size: 32px;
+}
+input:active {
+  background-color: brown;
+}
+ul {
+  list-style-type: upper-latin;
+}
+div.example3 {
+  margin-left: 64px;
+}
+span,
+h1.sub-heading,
+ul,
+form,
+#one {
+  background-color: wheat;
+}
+div.example > p {
+  margin-left: 32px;
+}
+div.example > #p {
+  font-size: 48px;
+  color: red;
+  background-color: aqua;
+}
+div.example span {
+  background-color: cadetblue;
+  color: #ff0000;
+}
+#p ~ div {
+  width: 37.5rem;
+  height: 18.75rem;
+}
+div + span {
+  display: block;
+}
+.parent {
+  width: 100%;
+  height: 300px;
+  background-color: blue;
+}
+#child {
+  width: 80%;
+  height: 80%;
+  background-color: cadetblue;
+}
+#child > .child {
+  width: 80%;
+  height: 80%;
+  background-color: red;
+}
+div.example div {
+  color: sienna;
+  background-color: darkblue;
+}
+
+/* # for id selection  */
+/* . for class selection */
+/* attribute- element[attribute] */
+/* attribute value- element[attribute=''] */
+/* pseudo-class : selector:pseudo-class */
+
+/* selector { property: property-value;
+ } */

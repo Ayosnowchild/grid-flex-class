@@ -1,0 +1,53 @@
+.parent {
+  display: flex;
+  flex-flow: column;
+  background-color: wheat;
+  width: 100%;
+  height: 600px;
+  gap: 16px;
+}
+#header {
+  background-color: darkgreen;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+}
+.other1 {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  height: 100%;
+}
+#menu {
+  background-color: darkgreen;
+  width: 20%;
+  height: 100%;
+}
+.other2 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 80%;
+  height: 100%;
+}
+.other3 {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  height: 50%;
+}
+#main {
+  background-color: darkgreen;
+  width: 60%;
+  height: 100%;
+}
+#right {
+  background-color: darkgreen;
+  width: 40%;
+  height: 100%;
+}
+#footer {
+  background-color: darkgreen;
+  width: 100%;
+  height: 50%;
+}
